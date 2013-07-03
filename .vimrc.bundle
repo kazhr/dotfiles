@@ -27,8 +27,8 @@ NeoBundle 'Shougo/unite.vim'
 
 NeoBundle 'Shougo/vimfiler'
 
-" ツリー型エクスプローラー
-NeoBundle 'The-NERD-tree'
+" ツリー型エクスプローラー（vimfilerに乗り換え）
+"NeoBundle 'The-NERD-tree'
 
 " Color Scheme
 NeoBundle 'desert256.vim'
