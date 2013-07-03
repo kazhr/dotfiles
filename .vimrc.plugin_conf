@@ -27,11 +27,6 @@ highlight PmenuSel ctermbg = red
 highlight PmenuSbar ctermbg = red 
 
 "------------------------------------
-" NERDTree
-"------------------------------------
-"let NERDTreeShowHidden = 1
-
-"------------------------------------
 " taglist
 "------------------------------------
 set tags=tags
