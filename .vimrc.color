@@ -1,3 +1,6 @@
 " カラーテーマ
-colorscheme elflord
+colorscheme desert256
+
+set t_Co=256
+
 

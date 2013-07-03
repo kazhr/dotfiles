@@ -1,12 +1,5 @@
-filetype off
-
-if has('vim_starting')
-  set runtimepath+=~/.vim/bundle/neobundle.vim/
-  call neobundle#rc(expand('~/.vim/bundle/'))
-endif
-
-filetype plugin on
-filetype indent on
+" vimプラグイン管理
+source ~/dotfiles/.vimrc.bundle
 
 " 基本設定
 source ~/dotfiles/.vimrc.basic
@@ -25,3 +18,9 @@ source ~/dotfiles/.vimrc.indent
 
 " 表示設定
 source ~/dotfiles/.vimrc.apperance
+
+" 編集設定
+source ~/dotfiles/.vimrc.edit
+
+" プラグイン設定
+source ~/dotfiles/.vimrc.plugin_conf

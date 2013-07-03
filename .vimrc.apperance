@@ -4,7 +4,8 @@
 set showmatch         " 括弧の対応をハイライト
 set number            " 行番号表示
 set list              " 不可視文字表示
-set listchars=tab:>.,trail:_,extends:>,precedes:< " 不可視文字の表示形式
+"set listchars=tab:>.,trail:_,extends:>,precedes:< " 不可視文字の表示形式
+set listchars=eol:¬,tab:▸\ " 不可視文字の表示設定（eol:行末、tab:タブ）
 set display=uhex      " 印字不可能文字を16進数で表示
 
 " 全角スペースの表示
@@ -20,11 +21,12 @@ augroup cch
   autocmd WinEnter,BufRead * set cursorline
 augroup END
 
-hi clear CursorLine
+"hi clear CursorLine
 hi CursorLine gui=underline
-highlight CursorLine ctermbg=darkgray guibg=darkgray
+highlight CursorLine ctermbg=black guibg=black
 
 " コマンド実行中は再描画しない
 set lazyredraw
 " 高速ターミナル接続を行う
 set ttyfast
+
