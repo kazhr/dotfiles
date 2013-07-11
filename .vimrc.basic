@@ -19,6 +19,7 @@ set viminfo='50,<1000,s100,\"50  " viminfoファイルの設定
 set modelines=0                  " モードラインは無効
 set notitle                      " タイトルを表示しない
 
+
 " OSのクリップボードを使用する
 " 次の設定を有効にすると、通常、「無名レジスタ」に入る、 ヤンク、カットの操作で指定したテキストが、「*レジスタ」にも入るようになります。 
 " 「*レジスタ」にデータを入れると、クリップボードにデータが入るので、 
@@ -35,9 +36,9 @@ set ttymouse=xterm2
 " 挿入モードでCtrl+kを押すとクリップボードの内容を貼り付けられるようにする "
 inoremap <C-p>  <ESC>"*pa
 
-" Ev/Revimrcでvimrcの編集と反映
-" command! Ev edit $MYVIMRC
-command! Revimrc source $MYVIMRC
+" Ev/Rvでvimrcの編集と反映
+command! Ev edit $MYVIMRC
+command! Rv source $MYVIMRC
 
 set helpfile=$VIMRUNTIME/doc/help.txt
 
