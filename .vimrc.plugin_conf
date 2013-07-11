@@ -84,26 +84,26 @@ let g:vimfiler_enable_auto_cd = 1
 "------------------------------------
 " unite.vim
 "------------------------------------
-"nnoremap [unite] <Nop>
-"nmap f [unite]
+nnoremap [unite] <Nop>
+nmap f [unite]
 "
-"let g:unite_enable_split_vertically=1
+""let g:unite_enable_split_vertically=1
 "
 "" バッファ覧
-"nnoremap <silent> [unite]b :<C-u>Unite buffer<CR>
-"
+nnoremap <silent> [unite]b :<C-u>Unite buffer<CR>
+
 "" ファイル一覧
-"nnoremap <silent> [unite]f :<C-u>UniteWithBufferDir -buffer-name=files file<CR>
-"
+nnoremap <silent> [unite]f :<C-u>UniteWithBufferDir -buffer-name=files file<CR>
+
 "" 最近使用したファイル一覧
-"nnoremap <silent> [unite]m :<C-u>Unite file_mru<CR>
-"
+nnoremap <silent> [unite]m :<C-u>Unite file_mru<CR>
+
 "" 常用セット
-"nnoremap <silent> [unite]u :<C-u>Unite buffer file_mru<CR>
-"
+nnoremap <silent> [unite]u :<C-u>Unite buffer file_mru<CR>
+
 "" ウィンドウを分割して開く
-"au FileType unite nnoremap <silent> <buffer> <expr> <C-j> unite#do_action('split')
-"au FileType unite inoremap <silent> <buffer> <expr> <C-j> unite#do_action('split')
+""au FileType unite nnoremap <silent> <buffer> <expr> <C-j> unite#do_action('split')
+""au FileType unite inoremap <silent> <buffer> <expr> <C-j> unite#do_action('split')
 "" ウィンドウを縦に分割して開く
-"au FileType unite nnoremap <silent> <buffer> <expr> <C-l> unite#do_action('vsplit')
-"au FileType unite inoremap <silent> <buffer> <expr> <C-l> unite#do_action('vsplit')
+""au FileType unite nnoremap <silent> <buffer> <expr> <C-l> unite#do_action('vsplit')
+""au FileType unite inoremap <silent> <buffer> <expr> <C-l> unite#do_action('vsplit')
