@@ -78,6 +78,8 @@ let NERDSpaceDelims = 1
 let g:vimfiler_as_default_explorer = 1
 let g:vimfiler_enable_auto_cd = 1
 
+nnoremap <Leader>e :VimFilerExplorer<CR>
+
 " vim起動時に自動的にvim-filerを起動する
 "au VimEnter * VimFilerExplorer
 
