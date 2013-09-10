@@ -6,12 +6,11 @@
 set expandtab
 
 " 挿入モード時に括弧を入力後に括弧内へカーソルを移動
-inoremap { {}<Left>
-inoremap [ []<Left>
-inoremap ( ()<Left>
-inoremap " ""<Left>
-inoremap ' ''<Left>
-inoremap < <><Left>
+"inoremap { {}<Left>
+"inoremap [ []<Left>
+"inoremap ( ()<Left>
+"inoremap ' ''<Left>
+"inoremap < <><Left>
 
 inoremap , ,<Space>
 

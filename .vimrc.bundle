@@ -62,7 +62,11 @@ NeoBundle 'tpope/vim-fugitive'
 " vim-airline
 NeoBundle 'bling/vim-airline'
 
-filetype plugin indent on
+NeoBundle 'kana/vim-smartinput'
+
+filetype on
+filetype plugin on
+filetype indent on
 
 NeoBundleCheck
 " Installation check.

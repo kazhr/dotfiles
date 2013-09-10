@@ -8,7 +8,7 @@ source ~/dotfiles/.vimrc.basic
 source ~/dotfiles/.vimrc.color
 
 " ステータスライン設定
-source ~/dotfiles/.vimrc.statusline
+"source ~/dotfiles/.vimrc.statusline
 
 " 検索設定
 source ~/dotfiles/.vimrc.search
