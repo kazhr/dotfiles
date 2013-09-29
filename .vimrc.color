@@ -1,5 +1,6 @@
 " カラーテーマ
-colorscheme desert256
+"colorscheme desert256
+colorscheme jellybeans
 
 set t_Co=256
 

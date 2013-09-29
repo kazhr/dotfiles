@@ -1,2 +1,2 @@
 "カラー設定
-colorscheme elflord
+colorscheme jellybeans

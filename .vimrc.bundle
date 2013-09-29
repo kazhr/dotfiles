@@ -32,6 +32,7 @@ NeoBundle 'Shougo/vimfiler'
 
 " Color Scheme
 NeoBundle 'desert256.vim'
+NeoBundle 'nanotech/jellybeans.vim'
 
 " ソースコード上のメソッド宣言、変数宣言の一覧表示
 " brew install ctags でExuberant Ctagsをインストール必要がある
