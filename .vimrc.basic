@@ -19,6 +19,10 @@ set viminfo='50,<1000,s100,\"50  " viminfoファイルの設定
 set modelines=0                  " モードラインは無効
 set notitle                      " タイトルを表示しない
 
+" window 分割時の動作
+set splitbelow
+set splitright
+
 
 " OSのクリップボードを使用する
 " 次の設定を有効にすると、通常、「無名レジスタ」に入る、 ヤンク、カットの操作で指定したテキストが、「*レジスタ」にも入るようになります。 
