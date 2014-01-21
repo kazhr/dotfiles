@@ -71,6 +71,8 @@ NeoBundle 'kana/vim-smartinput'
 NeoBundle 'tpope/vim-markdown'
 NeoBundle 'kannokanno/previm'
 
+NeoBundle 'glidenote/memolist.vim'
+
 filetype on
 filetype plugin on
 filetype indent on
