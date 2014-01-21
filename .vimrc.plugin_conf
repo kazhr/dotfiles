@@ -95,6 +95,10 @@ nnoremap <Leader>e :VimFilerExplorer<CR>
 "au VimEnter * VimFilerExplorer
 
 "------------------------------------
+" vim-rails
+"------------------------------------
+
+"------------------------------------
 " unite.vim
 "------------------------------------
 nnoremap [unite] <Nop>

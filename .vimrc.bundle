@@ -27,6 +27,8 @@ NeoBundle 'Shougo/unite.vim'
 
 NeoBundle 'Shougo/vimfiler'
 
+NeoBundle 'tyru/open-browser.vim'
+
 " ツリー型エクスプローラー（vimfilerに乗り換え）
 "NeoBundle 'The-NERD-tree'
 
@@ -64,6 +66,10 @@ NeoBundle 'tpope/vim-fugitive'
 NeoBundle 'bling/vim-airline'
 
 NeoBundle 'kana/vim-smartinput'
+
+" markdown
+NeoBundle 'tpope/vim-markdown'
+NeoBundle 'kannokanno/previm'
 
 filetype on
 filetype plugin on
