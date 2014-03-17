@@ -26,6 +26,11 @@ inoremap <expr><TAB> pumvisible() ? "\<C-n>" : "\<TAB>"
 "highlight PmenuSel ctermbg = red
 "highlight PmenuSbar ctermbg = red 
 
+" vim-rails が completefunc を上書きするのを防ぐ
+" https://github.com/tpope/vim-rails/issues/283
+" http://d.hatena.ne.jp/senggonghaza/20131214/1387029004
+let g:neocomplcache_force_overwrite_completefunc=1
+
 "------------------------------------
 " taglist
 "------------------------------------
