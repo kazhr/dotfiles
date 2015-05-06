@@ -53,7 +53,7 @@ let g:syntastic_mode_map = { 'mode': 'active',
                            \ 'passive_filetypes': ['html'] }
 
 " エラー時にQuickfixを表示する
-let g:syntastic_auto_loc_list = 1
+let g:syntastic_auto_loc_list = 0
 
 " javascriptの構文チェックにjshintを使用する
 let g:syntastic_javascript_checkers = ['jshint']
